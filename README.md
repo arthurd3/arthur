@@ -1,6 +1,8 @@
-programa {
-  inclua biblioteca Util --> u
-  funcao inicio() {
+	programa {
+	
+	inclua biblioteca Util --> u
+
+	funcao inicio() {
     
     cadeia mapa[5][6]
     inteiro linha=0, coluna=0 , pontos = 0
@@ -15,8 +17,6 @@ programa {
       linha4 = u.sorteia(1,4)
       coluna4 = u.sorteia(1, 4)
     
-
-  //Preenchendo a mapa de jogo com zeros
     para (inteiro i=0;i<5;i++){
       para (inteiro j=0;j<5;j++){
         mapa[i][j] = "_"
